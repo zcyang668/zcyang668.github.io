@@ -51,7 +51,7 @@
     <link href="http://zcyang.tk/2019/08/25/markdown-yu-fa/"/>
     <id>http://zcyang.tk/2019/08/25/markdown-yu-fa/</id>
     <published>2019-08-25T10:27:43.000Z</published>
-    <updated>2019-08-29T02:04:14.002Z</updated>
+    <updated>2019-08-29T02:37:58.501Z</updated>
     
     <summary type="html">
     
@@ -60,7 +60,7 @@
         
         
           &lt;p&gt;Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。&lt;/p&gt;
-&lt;h3 id=&quot;一、标题&quot;&gt;&lt;a href=&quot;#一、标题&quot; class=&quot;headerlink&quot;
+&lt;p&gt;在开始之前，可以下载Atom编辑器，这个是GitHub开发的，编写markdown文件很方便，安装好之后，下载插件markdown-scroll-sync，开
         
       
     
