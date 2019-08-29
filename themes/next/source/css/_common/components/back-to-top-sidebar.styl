@@ -1,30 +1,25 @@
 .back-to-top {
-  background: $b2t-sidebar-bg-color;
-  cursor: pointer;
+  display: none;
+  margin: 20px -10px -20px;
+  background: $body-bg-color;
   font-size: $b2t-font-size;
-  margin: 20px - $sidebar-offset -10px -20px;
   opacity: $b2t-opacity;
+  cursor: pointer;
   text-align: center;
-  visibility: hidden;
+  -webkit-transform: translateZ(0);
+  the-transition();
+    &:hover { opacity: 0.8; }
 
-  if (!hexo-config('back2top.scrollpercent')) {
-    span {
-      display: none;
-    }
+  +tablet() {
+    fixbutton() if hexo-config('sidebar.onmobile');
+    hide() if not hexo-config('sidebar.onmobile');
   }
-
-  &:hover {
-    opacity: $b2t-opacity-hover;
-  }
-
-  +tablet-mobile() {
-    if (!hexo-config('sidebar.onmobile')) {
-      display: none;
-    }
+  +mobile() {
+    fixbutton() if hexo-config('sidebar.onmobile');
+    hide() if not hexo-config('sidebar.onmobile');
   }
 
   &.back-to-top-on {
-    visibility: visible;
-    the-transition();
+    display: block;
   }
 }

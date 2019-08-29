@@ -1,94 +1,46 @@
 // Menu
 // --------------------------------------------------
-.site-brand-container {
-  flex-shrink: 0;
-}
-
 .site-nav-toggle {
-  float: right;
   position: static;
-  top: 10px;
+  float: right;
 }
 
-.site-nav {
-  flex-grow: 1;
-
-  +mobile() {
-    transform: translateY(10px);
-  }
-}
-
-.menu-item-active a {
-  background: #e1e1e1;
-}
 
 .menu {
-  // float: right;
-  margin: 0;
+  float: right;
+  margin: 8px 0 0 0;
 
   +mobile() {
-    margin: 10px 0;
+    margin: 20px 0 0 0;
     padding: 0;
   }
 
-  br {
-    display: none;
-  }
+  br { display: none; }
 
   .menu-item {
     margin: 0;
+    +mobile() { display: block; }
+  }
+
+  .menu-item a {
+    padding: 0 10px;
+    background: none;
+    border: none;
+    border-radius: 2px;
+    transition-property: background;
 
     +mobile() {
-      display: block;
-      margin-top: 5px;
+      text-align: left;
     }
 
-    .badge {
-      background-color: white;
-      border-radius: 10px;
-      color: $black-light;
-      display: inline-block;
-      font-weight: $font-weight-bolder;
-      line-height: 1;
-      margin-left: 5px;
-      padding: 1px 4px;
-      text-align: center;
-      text-shadow: 1px 1px 0 rgba(0, 0, 0, .1);
-      white-space: nowrap;
-
-      +mobile() {
-        float: right;
-        margin: .35em 0 0 0;
-      }
-    }
-
-    a, span.exturl {
-      border: 0;
-      border-radius: 2px;
-      padding: 0 10px;
-      transition-property: background;
-
-      +mobile() {
-        text-align: left;
-      }
-
-      &:hover {
-        @extend .menu-item-active a;
-      }
-
-      disable-touch-hover();
-    }
+    &:hover { background: #e1e1e1; }
   }
 
   a::before {
-    display: none;
+      display: none;
 
-    +mobile() {
-      display: block;
+      +mobile() { display: block; }
     }
-  }
 
-  +mobile() {
-    float: none;
-  }
+  +mobile() { float: none; }
 }

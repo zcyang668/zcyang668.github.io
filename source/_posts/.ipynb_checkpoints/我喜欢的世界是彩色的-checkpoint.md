@@ -1,7 +1,8 @@
 title: 我喜欢的世界是彩色的
 author: Jerry
 date: 2019-08-25 16:52:18
-tags: Feelings
+categories: 随笔
+tags: 喜欢
 ---
 我一辈子都喜欢跟着让我感觉有兴趣的人，
 因为在我心中，

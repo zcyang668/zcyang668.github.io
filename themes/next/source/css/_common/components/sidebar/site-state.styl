@@ -1,35 +1,28 @@
 .site-state {
-  display: flex;
-  justify-content: center;
-  line-height: 1.4;
-  margin-top: 10px;
   overflow: hidden;
-  text-align: $site-state-align;
+  line-height: 1.4;
   white-space: nowrap;
+  text-align: $site-state-align;
 }
 
 .site-state-item {
-  border-left: 1px solid $site-state-item-border-color;
+  display: inline-block;
   padding: 0 15px;
+  border-left: 1px solid $site-state-item-border-color;
 
-  &:first-child {
-    border-left: none;
-  }
+  &:first-child { border-left: none; }
 
-  a {
-    border-bottom: none;
-  }
+  a { border-bottom: none; }
 }
-
 .site-state-item-count {
-  color: $site-state-item-count-color;
   display: block;
-  font-size: $site-state-item-count-font-size;
-  font-weight: $font-weight-bold;
   text-align: center;
+  color: $site-state-item-count-color;
+  font-weight: $font-weight-bold;
+  font-size: $site-state-item-count-font-size;
 }
 
 .site-state-item-name {
-  color: $site-state-item-name-color;
   font-size: $site-state-item-name-font-size;
+  color: $site-state-item-name-color;
 }
