@@ -7,7 +7,7 @@ toc: true
 
 Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。
 
-在开始之前，可以下载Atom编辑器，这个是GitHub开发的，编写markdown文件很方便，安装好之后，下载插件markdown-scroll-sync，开始编辑按组合键Ctrl+Shift+M显示预览如下：
+在开始之前，可以下载Atom编辑器，这个是GitHub开发的，编写markdown文件很方便，安装好之后，下载插件markdown-scroll-sync，开始编辑按组合键Ctrl+Shift+M显示预览
 
 
 ### 一、标题
@@ -37,7 +37,6 @@ Markdown是一种纯文本格式的标记语言。通过简单的标记语法，
 
 - 效果如下：
 
-
 # 这是一级标题
 
 ## 这是二级标题
@@ -54,19 +53,19 @@ Markdown是一种纯文本格式的标记语言。通过简单的标记语法，
 
 ### 二、字体
 
-加粗
+* 加粗
 
 要加粗的文字左右分别用两个*号包起来
 
-斜体
+- 斜体
 
 要倾斜的文字左右分别用一个*号包起来
 
-斜体加粗
+- 斜体加粗
 
 要倾斜和加粗的文字左右分别用三个*号包起来
 
-删除线
+- 删除线
 
 要加删除线的文字左右分别用两个~~号包起来
 
@@ -90,6 +89,25 @@ Markdown是一种纯文本格式的标记语言。通过简单的标记语法，
 ***这是斜体加粗的文字***
 
 ~~这是加删除线的文字~~
+
+- 字体颜色，引用HTML标签格式
+```
+<font face="黑体">我是黑体字</font> <br>
+<font face="微软雅黑">我是微软雅黑</font> <br>
+<font face="STCAIYUN">我是华文彩云</font> <br>
+<font color="#0099ff" size="7" face="黑体">color=#0099ff size=72 face=”黑体”</font> <br>
+<font color="#00ffff" size="72">color=#00ffff</font> <br>
+<font color="gray" size="72">color=gray</font>
+```
+- 效果
+
+<font face="黑体">我是黑体字</font> <br>
+<font face="微软雅黑">我是微软雅黑</font> <br>
+<font face="STCAIYUN">我是华文彩云</font> <br>
+<font color="#0099ff" size="7" face="黑体">color=#0099ff size=72 face=”黑体”</font> <br>
+<font color="#00ffff" size="72">color=#00ffff</font> <br>
+<font color="gray" size="72">color=gray</font>
+
 
 ### 三、引用
 
