@@ -29,7 +29,8 @@
     </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
 
 <body>
@@ -400,7 +401,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        1.5k
+                        1.6k
                     </div>
                     
 
@@ -424,8 +425,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
-<p>在开始之前，可以下载Atom编辑器，这个是GitHub开发的，编写markdown文件很方便，安装好之后，下载插件markdown-scroll-sync，开始编辑按组合键Ctrl+Shift+M显示预览如下：</p>
-<p><img src="images/AtomPreview.png" alt="AtomPreview"></p>
+<p>在开始之前，可以下载Atom编辑器，这个是GitHub开发的，编写markdown文件很方便，安装好之后，下载插件markdown-scroll-sync，开始编辑按组合键Ctrl+Shift+M显示预览</p>
 <h3 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h3><p>在想要设置为标题的文字前面加#来表示</p>
 <p>一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。</p>
 <p>注：标准语法一般在#后跟个空格再写文字，貌似简书不加空格也行。</p>
@@ -446,13 +446,21 @@
 </code></pre><ul>
 <li>效果如下：</li>
 </ul>
-<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><h3 id="二、字体"><a href="#二、字体" class="headerlink" title="二、字体"></a>二、字体</h3><p>加粗</p>
+<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><h3 id="二、字体"><a href="#二、字体" class="headerlink" title="二、字体"></a>二、字体</h3><ul>
+<li>加粗</li>
+</ul>
 <p>要加粗的文字左右分别用两个*号包起来</p>
-<p>斜体</p>
+<ul>
+<li>斜体</li>
+</ul>
 <p>要倾斜的文字左右分别用一个*号包起来</p>
-<p>斜体加粗</p>
+<ul>
+<li>斜体加粗</li>
+</ul>
 <p>要倾斜和加粗的文字左右分别用三个*号包起来</p>
-<p>删除线</p>
+<ul>
+<li>删除线</li>
+</ul>
 <p>要加删除线的文字左右分别用两个~~号包起来</p>
 <ul>
 <li>示例：</li>
@@ -470,6 +478,16 @@
 <p><em>这是倾斜的文字</em></p>
 <p><strong><em>这是斜体加粗的文字</em></strong></p>
 <p><del>这是加删除线的文字</del></p>
+<ul>
+<li>字体颜色，引用HTML标签格式<pre><code>&lt;font face="黑体"&gt;我是黑体字&lt;/font&gt; &lt;br&gt;
+&lt;font face="微软雅黑"&gt;我是微软雅黑&lt;/font&gt; &lt;br&gt;
+&lt;font face="STCAIYUN"&gt;我是华文彩云&lt;/font&gt; &lt;br&gt;
+&lt;font color="#0099ff" size="7" face="黑体"&gt;color=#0099ff size=72 face=”黑体”&lt;/font&gt; &lt;br&gt;
+&lt;font color="#00ffff" size="72"&gt;color=#00ffff&lt;/font&gt; &lt;br&gt;
+&lt;font color="gray" size="72"&gt;color=gray&lt;/font&gt;</code></pre></li>
+<li>效果</li>
+</ul>
+<p><font face="黑体">我是黑体字</font> <br><br><font face="微软雅黑">我是微软雅黑</font> <br><br><font face="STCAIYUN">我是华文彩云</font> <br><br><font color="#0099ff" size="7" face="黑体">color=#0099ff size=72 face=”黑体”</font> <br><br><font color="#00ffff" size="72">color=#00ffff</font> <br><br><font color="gray" size="72">color=gray</font></p>
 <h3 id="三、引用"><a href="#三、引用" class="headerlink" title="三、引用"></a>三、引用</h3><p>在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;</p>
 <p>n个…</p>
 <p>貌似可以一直加下去，但没神马卵用</p>
@@ -994,10 +1012,16 @@ fun();
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            简介  termux是安卓上一款可以说是Linux容器吧，可以在Google play上下载最新的
+                            简介  termux是安卓上一款可以说是Linux容器吧，下载地址
+  Google play
+  官网
+一、基本设置及操作基本设置
+安装好以后，长按屏幕,会有如下显示：
 
-        document.querySelectorAll('.github-emoji')
-          .forEach
+  长按屏幕
+├── COPY:复制
+├── PASTE:更多
+├
                         
                     </div>
                     <div class="publish-info">
@@ -1198,7 +1222,7 @@ fun();
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">1.7k</span>
+                <span class="white-color">3.1k</span>
             
 
             

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zcyang.tk/"/>
-  <updated>2019-08-29T01:17:20.387Z</updated>
+  <updated>2019-09-06T02:20:00.990Z</updated>
   <id>http://zcyang.tk/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>termux食用指南</title>
-    <link href="http://zcyang.tk/2019/08/28/termux-shi-yong-zhi-nan/"/>
-    <id>http://zcyang.tk/2019/08/28/termux-shi-yong-zhi-nan/</id>
-    <published>2019-08-28T05:32:45.000Z</published>
-    <updated>2019-08-29T01:17:20.387Z</updated>
+    <title>你是舔狗吗</title>
+    <link href="http://zcyang.tk/2019/09/06/ni-shi-tian-gou-ma/"/>
+    <id>http://zcyang.tk/2019/09/06/ni-shi-tian-gou-ma/</id>
+    <published>2019-09-06T01:29:28.000Z</published>
+    <updated>2019-09-06T02:20:00.990Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,34 @@
       
         
         
-          &lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;  termux是安卓上一款可以说是Linux容器吧，可以在&lt;a href=&quot;https://google.play.com&quot;
+          &lt;h3 id=&quot;打狗棒法，专打舔狗&quot;&gt;&lt;a href=&quot;#打狗棒法，专打舔狗&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://zcyang.tk/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="逗比" scheme="http://zcyang.tk/tags/%E9%80%97%E6%AF%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>termux食用指南</title>
+    <link href="http://zcyang.tk/2019/08/28/termux-shi-yong-zhi-nan/"/>
+    <id>http://zcyang.tk/2019/08/28/termux-shi-yong-zhi-nan/</id>
+    <published>2019-08-28T05:32:45.000Z</published>
+    <updated>2019-08-29T07:25:56.655Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;  termux是安卓上一款可以说是Linux容器吧，下载地址&lt;/p&gt;
+&lt;p&gt;  &lt;u&gt;&lt;a
         
       
     
@@ -51,7 +78,7 @@
     <link href="http://zcyang.tk/2019/08/25/markdown-yu-fa/"/>
     <id>http://zcyang.tk/2019/08/25/markdown-yu-fa/</id>
     <published>2019-08-25T10:27:43.000Z</published>
-    <updated>2019-08-29T02:37:58.501Z</updated>
+    <updated>2019-08-29T07:26:10.334Z</updated>
     
     <summary type="html">
     
