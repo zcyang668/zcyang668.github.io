@@ -6,7 +6,7 @@
 title: Jerry's Blog
 subtitle: 我喜欢的世界是彩色的
 description: Linux
-keywords: 
+keywords:
 author: Jerry
 language: zh-CN
 timezone: Asia/Shanghai
@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
@@ -58,7 +58,7 @@ index_generator:
   path: ''
   per_page: 12
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
