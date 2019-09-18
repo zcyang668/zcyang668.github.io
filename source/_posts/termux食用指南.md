@@ -1,7 +1,7 @@
 ---
 title: termux食用指南
 date: 2019-08-28 13:32:45
-categories: linux
+categories: Linux
 tags:
 - termux
 - android
