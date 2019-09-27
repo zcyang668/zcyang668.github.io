@@ -48,7 +48,7 @@ End Class
 
 ![XHCX](VB-NET与sql查询/xhcx.png)
 
-主要是标签`label`和文本框`textbox`控件，再加一个日期`DataPicker`控件
+主要是标签`label`和文本框`textbox`控件，再加一个日期`DateTimePicker`控件
 
 ```vbnet
 Imports System.Data.SqlClient
