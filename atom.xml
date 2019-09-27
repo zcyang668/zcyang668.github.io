@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zcyang.tk/"/>
-  <updated>2019-09-08T05:52:22.742Z</updated>
+  <updated>2019-09-27T08:27:24.968Z</updated>
   <id>http://zcyang.tk/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>咖啡简介</title>
-    <link href="http://zcyang.tk/2019/09/08/ka-pei-jian-jie/"/>
-    <id>http://zcyang.tk/2019/09/08/ka-pei-jian-jie/</id>
-    <published>2019-09-08T03:34:17.000Z</published>
-    <updated>2019-09-08T05:52:22.742Z</updated>
+    <title>VB.NET与sql查询</title>
+    <link href="http://zcyang.tk/2019/09/27/vb-net-yu-sql-cha-xun/"/>
+    <id>http://zcyang.tk/2019/09/27/vb-net-yu-sql-cha-xun/</id>
+    <published>2019-09-27T05:47:59.000Z</published>
+    <updated>2019-09-27T08:27:24.968Z</updated>
     
     <summary type="html">
     
@@ -29,18 +29,17 @@
       
         
         
-          &lt;p&gt;一直想写这个咖啡的简介，可是插入图片太麻烦，今天找到方法，就试一下，顺便把这个写了&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Espresso(其实用这个词更能代表意式咖啡，而不是“意式”、”浓缩”，espresso的浓醇反正我没感受过，浓咖啡真的喝不了，喝了特别困，没错，&lt;strong&gt;
+          &lt;p&gt;因为开发了一个查询的小工具，满足自己日常工作时查询数据使用，记录开发中遇到的一些问题与解决方法，&lt;/p&gt;
+&lt;p&gt;主要是&lt;code&gt;vb.net&lt;/code&gt;控件的一些属性和&lt;code&gt;SQL&lt;/code&gt;查询语句，毕竟只会一点&lt;code&gt;vba&lt;/code&gt;，切换到&lt;cod
         
       
     
     </summary>
     
-      <category term="学识" scheme="http://zcyang.tk/categories/%E5%AD%A6%E8%AF%86/"/>
+      <category term="vb.net" scheme="http://zcyang.tk/categories/vb-net/"/>
     
     
-      <category term="coffee" scheme="http://zcyang.tk/tags/coffee/"/>
+      <category term="-vb.NET -sql查询" scheme="http://zcyang.tk/tags/vb-NET-sql%E6%9F%A5%E8%AF%A2/"/>
     
   </entry>
   
@@ -48,8 +47,8 @@
     <title>我的断断续续</title>
     <link href="http://zcyang.tk/2019/09/08/wo-de-duan-duan-xu-xu/"/>
     <id>http://zcyang.tk/2019/09/08/wo-de-duan-duan-xu-xu/</id>
-    <published>2019-09-08T01:22:51.000Z</published>
-    <updated>2019-09-08T02:53:24.296Z</updated>
+    <published>2019-09-08T15:49:51.000Z</published>
+    <updated>2019-09-18T05:31:36.941Z</updated>
     
     <summary type="html">
     
@@ -76,6 +75,34 @@
       <category term="社交" scheme="http://zcyang.tk/tags/%E7%A4%BE%E4%BA%A4/"/>
     
       <category term="狗粮" scheme="http://zcyang.tk/tags/%E7%8B%97%E7%B2%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>咖啡简介</title>
+    <link href="http://zcyang.tk/2019/09/08/ka-pei-jian-jie/"/>
+    <id>http://zcyang.tk/2019/09/08/ka-pei-jian-jie/</id>
+    <published>2019-09-08T03:34:17.000Z</published>
+    <updated>2019-09-08T05:52:22.742Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;一直想写这个咖啡的简介，可是插入图片太麻烦，今天找到方法，就试一下，顺便把这个写了&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Espresso(其实用这个词更能代表意式咖啡，而不是“意式”、”浓缩”，espresso的浓醇反正我没感受过，浓咖啡真的喝不了，喝了特别困，没错，&lt;strong&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="学识" scheme="http://zcyang.tk/categories/%E5%AD%A6%E8%AF%86/"/>
+    
+    
+      <category term="coffee" scheme="http://zcyang.tk/tags/coffee/"/>
     
   </entry>
   
